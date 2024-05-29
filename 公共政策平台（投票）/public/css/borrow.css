@@ -1,0 +1,91 @@
+.borDiv {
+	position: absolute;
+	z-index: 9999;
+	top: 160px;
+	left: 445px;
+	width: 360px;
+	height: 400px;
+}
+
+.headTitle {
+	margin-left: 118px;
+	margin-bottom: 20px;
+}
+
+.padding {
+	height: 560px;
+}
+
+.goodsDiv {
+	width: 180px;
+	height: 210px;
+	border: solid 1px #555454;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	float: left;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+.goodsDiv:hover {
+	box-shadow: 0 0 20px rgba(38, 91, 235, 0.5);
+}
+
+.goodsDiv p {
+	color: black;
+	padding-left: 5px;
+}
+
+.boldFont {
+	font-weight: bolder;
+}
+
+.selectDay,
+.selectTokenNum {
+	position: fixed;
+	border: 1px solid #b8acac;
+	width: 300px;
+	height: 165px;
+	top: 120px;
+	left: 491px;
+	background-color: white;
+	text-align: center;
+	z-index: 9999;
+	display: none;
+}
+
+.dayInput,
+.tokenInput {
+	margin: auto;
+	width: 200px;
+}
+
+.buyTokenDiv {
+	position: absolute;
+	z-index: 9999;
+	left: 525px;
+	top: 260px;
+}
+
+.blackDiv {
+	position: absolute;
+	z-index: 9999;
+	top: 345px;
+	left: 562px;
+}
+
+.blackDiv a {
+	color: white;
+	text-decoration: none;
+}
+
+.blackDiv a:hover {
+	color: rgb(60, 174, 194);
+}
+
+.proposalForm {
+	position: absolute;
+	z-index: 9999;
+	top: 120px;
+	left: 415px;
+	width: 500px;
+}

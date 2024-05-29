@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="author" content="">
+		<meta name="keyword" content=" template, html5, css3, bootstrap4">
+		<meta name="description" content="HTML5 and CSS3 Template Based on Bootstrap 4">
+		<title>Home</title>
+		<!-- <link rel="stylesheet" href="/ionicons/css/ionicons.min.css"> -->
+		<link rel="stylesheet" href="../public/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="../public/sweetalert/dist/sweetalert.css">
+		<link rel="stylesheet" href="../public/css/stisla.css">
+		<link rel="stylesheet" href="../public/css/setGoods.css">
+	</head>
+
+	<body>
+		<nav class="navbar navbar-expand-lg main-navbar">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<h1 style="color: white;">公共政策平台</h1>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon">
+						<i class="ion-navicon"></i>
+					</span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<div class="mr-auto"></div>
+					<ul class="navbar-nav">
+						<li class="nav-item ">
+							<a class="nav-link smooth-link" href="./newProposal.html">发起提案</a>
+						</li>
+
+						<li class="nav-item ">
+							<a class="nav-link smooth-link" href="./proposalList.html">发起投票</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link smooth-link" href="./search.html">查询提案</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section class="hero bg-overlay" id="hero" data-bg="../public/img/a.png">
+			<div id="goodsDiv">
+				<span id="headTitle">查询提案</span>
+				<ul id="goodsUl">
+					<li>提案编号：<input type="text" class="goodsInput" id="id"></li>
+				</ul>
+				<input class="btn btn-default addButtun" id="search" type="submit" value="查询">
+			</div>
+		</section>
+
+		<div class="result">
+			<div class="text-center" style="margin-top: 10px;"><span style="padding-left: 35px;">提案信息</span><span
+					class="close">关闭</span></div>
+			<div class="res">
+				<p><span>投票人数：</span><span id="peopleNum"></span>人</p>
+				<p><span>提案费用合计：</span><span id="costNum"></span> eth</p>
+			</div>
+		</div>
+		<script src="../public/js/jquery.min.js"></script>
+		<script src="../public/bootstrap/js/bootstrap.min.js"></script>
+		<script src="../public/js/jquery.easeScroll.js"></script>
+		<script src="../public/sweetalert/dist/sweetalert.min.js"></script>
+		<script src="../public/js/stisla.js"></script>
+		<script src="../public/js/web3.min.js"></script>
+		<script src="../public/js/web3/searchProposal.js"></script>
+
+	</body>
+
+</html>
+<script>
+	
+</script>

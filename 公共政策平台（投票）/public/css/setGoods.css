@@ -1,0 +1,109 @@
+#goodsDiv {
+	position: absolute;
+	z-index: 9999;
+	top: 120px;
+	left: 500px;
+	width: 300px;
+	height: 450px;
+}
+
+#goodsUl {
+	list-style: none;
+	padding: 0;
+}
+
+.goodsInput {
+	background-color: transparent;
+	margin-bottom: 20px;
+	border: 2px solid #ffffff52;
+	width: 300px;
+	color: white;
+}
+
+.addButtun {
+	margin-left: 120px;
+}
+
+#headTitle {
+	padding-left: 100px;
+}
+
+.borrowedDiv {
+	position: absolute;
+	z-index: 99999;
+	top: 20px;
+	left: 4px;
+	display: none;
+}
+
+.borrowedDiv a {
+	color: white;
+	text-decoration: none;
+}
+
+.borrowedLi {
+	position: relative;
+}
+
+.manageDiv {
+	background-color: white;
+	top: 90px;
+	left: 265px;
+	width: 700px;
+	height: 400px;
+	position: absolute;
+	z-index: 9999;
+	display: none;
+}
+
+.aviliableBtn,
+.returnBtn {
+	background-color: rgb(50, 190, 214);
+	color: white;
+}
+
+.closeBtn {
+	position: absolute;
+	top: 355px;
+	left: 325px;
+}
+
+.proposalForm {
+	position: absolute;
+	z-index: 9999;
+	top: 120px;
+	left: 415px;
+	width: 500px;
+}
+
+.result {
+	border-radius: 10px;
+	box-shadow: 0 0 2px #b6e3f8;
+	border: 1px solid #b6e3f8;
+	position: absolute;
+	top: 100px;
+	left: 500px;
+	z-index: 99999;
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	display: none;
+}
+
+.res {
+	margin-top: 40px;
+}
+
+.res p {
+	margin-left: 20px;
+}
+
+.res p span {
+	font-weight: bold;
+}
+
+.close {
+	font-size: 15px;
+	line-height: 24px;
+	padding-right: 5px;
+}
